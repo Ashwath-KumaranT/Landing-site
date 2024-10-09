@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+img {
+    background-color: inherit;
+}
+
+button {
+    border: initial;
+    background-color: initial;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+i{
+    color: inherit;
+}
+
+p {
+    font-size: inherit;
+}
+
+span {
+    color: inherit;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+/* header styles */
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #FEFCFB;
+    padding: 20px;
+}
+/* styles for title of the website */
+.agent-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.logo {
+    /* margin-left: 10px;  */
+}
+
+/* navigation button styles */
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* styles for button */
+.dd-toggle {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for sign */
+.account {
+    display: flex;
+    justify-content: flex-end; 
+}   
+
+/* styles for login */
+.login {
+    color: #FA7436;
+    padding: 10px;
+}
+
+/* style for signup  */
+.sign-up {
+    background-color: #FA7436;
+    padding: 0px 40px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* about section styles */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    background-color: #FEFCFB;
+    padding-left: 30px;
+}
+
+/* styles for content  */
+.about-content {
+    justify-content: space-around;
+    flex: 1 1 50%;
+    min-width: 300px
+}
+
+.about-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+span {
+    color: #FA7436;
+}
+
+/* styles content images  */
+.about-image {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center; 
+    min-width: 300px; /
+}
+
+.about-image img {
+    width: 100%; 
+    max-width: 500px;
+    height: auto;
+    border-radius: 80px;
+    
+}
+
+.discover-now {
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #FA7436;
+    color: #FA7436;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+
+/* styles for dropdown  */
+.drop-down-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    width: 100%; 
+    margin-bottom: 100px;
+}
+
+.dropdown {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* styles for button in dropdown  */
+.dropbtn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    white-space: nowrap;
+}
+
+.drop-text {
+    display: flex;
+    align-items: center;
+    color: black;
+    white-space: nowrap;
+}
+
+.drop-text i {
+    color: #FA7436;
+    padding-left: 10px;
+}
+
+.dropbtn p {
+    margin: 0;
+    font-size: 14px;
+    color: #666; 
+    margin-top: 5px;
+    padding: 0px 1px;
+}
+
+/* styles for explore now button  */
+.explore-now {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 15px;
+    border: 1px solid #FA7436;
+    color: #fff;
+    background-color: #FA7436;
+    border-radius: 4px;
+}
+
+.dropbtn p {
+    color: #666666;
+}
+
+/* travel section styles  */
+.travel-head,
+.discount-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.travel-head p,
+.discount-head p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px; 
+    margin: 10px 0; 
+}
+
+.travel-heading,
+.discount-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px !important;
+    font-weight: bold;
+    color: #000000 !important;
+    margin: 0;
+}
+
+/* styles for whole section  */
+.whole-travel {
+    background-color: #F7F8FC;
+    padding: 50px 0;
+}
+
+.travel {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px; 
+}
+
+.plan {
+    padding: 20px; 
+    margin: 10px; 
+    background-color: #fff;
+    border-radius: 4px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.plan i {
+    margin: 20px 0px;
+}
+
+.discount-travel {
+    padding: 50px 0;
+}
+
+.whole-discount {
+    background-color: #FEFCFB;
+    padding: 50px 0;
+}
+
+/* styles for the discount price  */
+.deals {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+}
+
+.travel-deals img {
+    height: 300px;
+    border-radius: 4px;
+}
+
+.travel-deals {
+    flex: 1;
+    width: 100%; 
+    overflow: hidden; 
+    position: relative; 
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-width: 250px;
+    max-width: 300px; 
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+#shadow-travel {
+    box-shadow: 0 6px 10px rgba(250, 116, 54, 0.3),
+    0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-image {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+#res-img {
+    /* width: 100%;  */
+    /* height: auto;  */
+    filter: blur(2px); 
+    
+}
+.book-now {
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.book-now button {
+    padding: 10px 20px; 
+    background-color: #FA7436; 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+}
+
+.rating,
+.rate {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+}
+
+.rating span,
+.rate span {
+    color: black;
+}
+
+.rating i {
+    color: #FA7436;
+}
+
+.current-rate {
+    padding: 5px;
+    background-color: #FFE7DB;
+    text-align: center;
+    color: #FA7436;
+    border-radius: 4px;
+}
+
+/* styles for arrow to navigate  */
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 50px; 
+    height: 50px;
+    padding: 10px;
+    margin: 0 20px; 
+    color: #999999;
+    border: 2px solid #999999;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.right-arrow {
+    border: 2px solid #FA7436;
+    background-color: #FA7436;
+    color: #fff;
+    border-radius: 50%; 
+}
+
+.vacation-rate {
+    color: #FA7436;
+    font-weight: bold;
+}
+
+.whole-vacation {
+    background-color: #FEFCFB;
+    padding: 50px 0;
+    position: relative;
+}
+
+.vacation-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#shadow-vacation {
+    box-shadow: 0 6px 10px rgba(250, 116, 54, 0.3),
+    0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* feedback section styles  */
+.whole-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:  center;
+}
+
+.feedback-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.whole-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #F7F8FC;
+}
+
+.whole-dialog-box {
+    position: relative; 
+    max-width: 500px; 
+    margin: 20px auto; 
+}
+
+/* Primary content styles  */
+.dialog-box-primary {
+    position: relative; 
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
+
+
+.avatar {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: -20px; 
+    left: -20px; 
+    margin-right: 20px;
+}
+
+
+.db-primary-content {
+    margin-top: 40px; 
+}
+
+.quote {
+    font-style: italic; 
+    color: #555; 
+    margin-bottom: 10px; 
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.location {
+    font-size: 14px; 
+    color: #999; 
+}
+
+/* blog section styles  */
+.whole-blog {
+    background-color: #FEFCFB;
+    padding: 50px 0;
+    position: relative;
+}
+
+.whole-blog p {
+    color: #999999;
+}
+
+.pagination-dots {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    background-color: #ccc; 
+    margin: 0 5px; 
+}
+
+.dot.current {
+    width: 12px;
+    height: 12px; 
+    background-color: #FA7436; 
+}
+
+/* styles for footer  */
+.footer {
+    padding: 40px 80px;
+    background-color: #F7F8FC; 
+    font-size: 14px;
+    color: #333;
+    flex-wrap: wrap;
+}
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trabook {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.trabook .agent-title {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.trabook p {
+    margin: 10px 0 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* styles for icons in the footer  */
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-icons .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons .icon i {
+    color: black;
+    font-size: 18px;
+}
+
+.social-icons .icon:nth-child(2) {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.company, .contact, .more {
+    display: flex;
+    flex-direction: column;
+}
+
+.company a, .contact a, .more a {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.last a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* styles for the subscribtion  */
+.subscribe-section {
+    background: linear-gradient(to bottom, #FEFCFB 50%, #f8f9fa 50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+}
+
+.content {
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #ff6600;
+    padding: 90px 200px;
+    border-radius: 16px;
+}
+
+.content p {
+    font-size: 40px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+input[type="email"] {
+    flex-wrap: wrap;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+button[type="submit"] {
+    flex-wrap: wrap;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e55a00;
+}
+
