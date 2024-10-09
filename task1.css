@@ -278,8 +278,10 @@ span {
     justify-content: space-between; 
 }
 
-.plan i {
+.plan img {
     margin: 20px 0px;
+    height: 30px;
+    width: 30px;
 }
 
 .discount-travel {
